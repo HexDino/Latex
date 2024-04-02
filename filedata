@@ -1,0 +1,10 @@
+ 
+if [ -f $1 ]
+then
+	echo "Tệp tồn tại và là tệp dữ liệu"
+elif [ -d $1 ]
+then
+	echo "Tệp tồn tại và là thư mục"
+else
+	echo "Tệp không tồn tại"
+fi

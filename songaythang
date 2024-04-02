@@ -1,0 +1,15 @@
+case $1 in
+	"1") echo "Thang $1 co 31 ngay";;
+	"2") echo "Thang $1 co 28/29 ngay";;
+	"3") echo "Thang $1 co 31 ngay";;
+	"4") echo "Thang $1 co 30 ngay";;
+	"5") echo "Thang $1 co 31 ngay";;
+	"6") echo "Thang $1 co 30 ngay";;
+	"7") echo "Thang $1 co 31 ngay";;
+	"8") echo "Thang $1 co 31 ngay";;
+	"9") echo "Thang $1 co 30 ngay";;
+	"10") echo "Thang $1 co 31 ngay";;
+	"11") echo "Thang $1 co 30 ngay";;
+	"12") echo "Thang $1 co 31 ngay";;
+	*) echo "Nhap lai";;
+esac

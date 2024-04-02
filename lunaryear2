@@ -1,0 +1,32 @@
+for ((i=1990; i<2021; i++))
+do
+thuongcan=`expr $i % 10`
+thuongchi=`expr $i % 12`
+echo -n "Nam $i am lich la "
+case $thuongcan in
+        5) echo -n "At";;
+        6) echo -n "Binh";;
+        7) echo -n "Dinh";;
+        8) echo -n "Mau";;
+        9) echo -n "Ky";;
+        0) echo -n "Canh";;
+        1) echo -n "Tan";;
+        2) echo -n "Nham";;
+        3) echo -n "Quy";;
+        4) echo -n "Giap";;
+esac
+case $thuongchi in
+        11) echo " Mui";;
+        0) echo " Than";;
+        1) echo " Dau";;
+        2) echo " Tuat";;
+        3) echo " Hoi";;
+        4) echo " Ty";;
+        5) echo " Suu";;
+        6) echo " Dan";;
+        7) echo " Mao";;
+        8) echo " Thin";;
+        9) echo " Ty";;
+        10) echo " Ngo";;
+esac
+done
